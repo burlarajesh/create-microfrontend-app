@@ -6,14 +6,14 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-  window.renderPolicy = (containerId, history) => {
+  window.renderMFE1 = (containerId, history) => {
     ReactDOM.render(
       <App history={history} />,
       document.getElementById(containerId),
     );    
   };
 
-  window.unmountPolicy = containerId => {
+  window.unmountMFE1 = containerId => {
     ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
   };
 
