@@ -13,7 +13,7 @@ const initialState = window.initialReduxState;
 const store = configureStore(initialState);
 const defaultHistory = createBrowserHistory();
 
-window.renderMFE1 = (
+window.renderApp = (
   containerId,
   history,
   appConfig,
@@ -44,7 +44,7 @@ window.renderMFE1 = (
   );
 };
 
-window.unmountMFE1 = containerId => {
+window.unmountApp = containerId => {
   ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
 };
 
