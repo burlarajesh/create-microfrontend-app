@@ -19,7 +19,7 @@ To copy the output , goto public folder and copy [appname].js
 You can upload [appname].js into your favourite cloud :blush:
 ## Integrate with Microfrontend shell app
 You can integrate  [appname].js into microfrontend shell application
-# Stcuk somewhere?
+# Stuck somewhere?
 
 reach me out @: burla.rajesh2k8@gmail.com
 
